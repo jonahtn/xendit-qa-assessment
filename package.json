@@ -20,12 +20,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xendit/xendit-qa-assessment.git"
+    "url": "git+https://github.com/jonahtn/xendit-qa-assessment.git"
   },
-  "bugs": {
-    "url": "https://github.com/xendit/xendit-qa-assessment/issues"
-  },
-  "homepage": "https://github.com/xendit/xendit-qa-assessment#readme",
   "dependencies": {
     "selenium-webdriver": "^4.0.0-alpha.5"
   }
