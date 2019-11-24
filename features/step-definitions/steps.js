@@ -8,7 +8,7 @@ Given('Open chrome browser and start application', function () {
     return driver.get('https://www.online-calculator.com/full-screen-calculator/');
 });
 
-When('I enter {int} and press subtraction button then enter {int}', function (int, int2) {
+When('I subtract {int} by {int}', function (int, int2) {
     try {
         webElement = driver.findElement(By.id("canvas"));
         webElement.sendKeys(int)
@@ -26,7 +26,7 @@ Then('I should be able to see {int} on screen', function (int) {
     return 'pending';
 });
 
-When('I enter {int} and press division button then enter {int}', function (int, int2) {
+When('I divide {int} by {int}', function (int, int2) {
     try {
         webElement = driver.findElement(By.id("canvas"));
         webElement.sendKeys(int)

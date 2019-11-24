@@ -2,7 +2,7 @@ Feature: Test online calculator
 
 	Scenario Outline: Test subtraction functionalities
 		Given Open chrome browser and start application
-		When I enter <value1> and press subtraction button then enter <value2>
+		When I subtract <value1> by <value2>
 		Then I should be able to see <expected> on screen
 		Examples:
 			| value1      | value2 | expected  |
@@ -14,7 +14,7 @@ Feature: Test online calculator
 
 	Scenario Outline: Test division functionalities
 		Given Open chrome browser and start application
-		When I enter <value1> and press division button then enter <value2>
+		When I divide <value1> by <value2>
 		Then I should be able to see <expected> on screen
 		Examples:
 			| value1 | value2 | expected   |
